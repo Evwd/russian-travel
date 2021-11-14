@@ -1,0 +1,9 @@
+.lead_subtitle{
+-webkit-font-smoothing: antialiased;
+font-family: Inter;
+font-size: 500px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+}
