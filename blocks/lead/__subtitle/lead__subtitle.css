@@ -1,9 +1,25 @@
-.lead_subtitle{
--webkit-font-smoothing: antialiased;
-font-family: Inter;
-font-size: 500px;
-font-style: normal;
-font-weight: 400;
-line-height: 36px;
-text-align: center;
+.lead__subtitle {
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    max-width: 640px;
+    margin: 0px auto 64px;
 }
+
+@media screen and (max-width: 1280px) {
+    .lead__subtitle {
+      margin: 0 auto 56px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .lead__subtitle {
+      margin: 0 auto 40px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
