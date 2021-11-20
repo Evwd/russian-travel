@@ -1,4 +1,14 @@
 .lead__image {
-  width: 100%;
-  background-size: cover;
+    width: 100%;
+    height: auto;
+    max-height: 615px;
+    margin: 0 auto;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        max-width: 928px;
+    }
 }

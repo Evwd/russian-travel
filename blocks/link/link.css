@@ -1,59 +1,49 @@
-.link {
-  margin: 0 auto;
-  width: 100%;
-  min-height: 740px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  background-image: url(../../../images/cover-trains.jpg);
-  background-size: cover;
-  box-sizing: border-box;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-decoration: none;
-  }
-  
-.link :before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #2f2f2f;
-  opacity: 0.1;
-  transition: opacity 0.1s linear;
-} 
-
-.link :hover:before {
-  opacity: 0.8;
-  transition: opacity 0.1s linear;
-}
-
-.link :hover {}
-
-@media screen and (max-width: 1024px) {
-  .link  {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .link  {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .link  {
-    min-height: 200px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .link  {
-    min-height: 200px;
-  }
-}
+    .link {
+        margin: 0 auto;
+        width: 100%;
+        min-height: 740px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../images/cover-trains.jpg');
+        background-size: cover;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-decoration: none;
+    }
+    
+    .link:hover {
+        background: linear-gradient( rgba(126, 126, 126, 0.8), rgba(0, 0, 0, 0.8)), url('../../images/cover-trains.jpg');
+        background-size: cover;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-decoration: none;
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .link {
+            min-height: 640px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .link {
+            min-height: 480px;
+        }
+    }
+    
+    @media screen and (max-width: 400px) {
+        .link {
+            min-height: 200px;
+        }
+    }
+    
+    @media screen and (max-width: 320px) {
+        .link {
+            min-height: 200px;
+        }
+    }

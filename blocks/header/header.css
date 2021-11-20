@@ -1,24 +1,18 @@
 .header {
-  display: flex;
-  max-width: 1184px;
-  margin: 0px 48px;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 1024px) {
-  .header {
+    display: flex;
+    max-width: 1184px;
     margin: 0px 48px;
-  }
-} 
-
-@media screen and (max-width: 768px) {
-  .header {
-    margin: 0px 24px;
-  }
+    justify-content: space-between;
 }
 
-@media screen and (max-width: 320px) {
-  .header {
-    margin: 0px 16px;
-  }
+@media screen and (max-width: 1044px) {
+    .header {
+        margin: 0px 24px;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .header {
+        margin: 0px 16px;
+    }
 }
