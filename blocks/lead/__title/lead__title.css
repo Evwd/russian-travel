@@ -1,8 +1,8 @@
-.lead__title{
+.lead__title {
   -webkit-font-smoothing: antialiased;
   width: 100%;
   margin: 56px auto 32px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 96px;
   font-style: normal;
   font-weight: 900;

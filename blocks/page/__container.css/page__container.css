@@ -1,4 +1,4 @@
-.page__info{
+.page__container {
   -webkit-font-smoothing: antialiased;
   background: #2A2C2F;
   max-width: 1280px;
@@ -8,11 +8,10 @@
   padding-top: 28px;
   color: #ffffff;
   font-family: 'Inter', Arial ,sans-serif;
-  padding-bottom: 50px;
  }
   
 @media screen and (max-width: 768px) {
-  .page__info{
+  .page__container{
     padding-top: 16px;
   }
 }
